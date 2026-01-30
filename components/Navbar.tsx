@@ -9,7 +9,8 @@ export default function Navbar () {
     { href: '/combat', label: 'combat', icon: Fist },
     { href: '/ship', label: 'ship', icon: SpaceShip },
     { href: '/tables', label: 'tables', icon: Tables },
-    { href: '/pdf/traveller-core-rulebook.pdf', label: 'pdf', icon: PDFIcon, external: true },
+    { href: '/pdf/traveller-core-rulebook.pdf', label: 'Rulebook', icon: PDFIcon, external: true },
+    { href: '/pdf/astrogator.pdf', label: 'Astrogator sheet', icon: PDFIcon, external: true },
   ]
   return (
     <nav className="flex flex-row justify-center gap-6 text-center sm:items-center">
