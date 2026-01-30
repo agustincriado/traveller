@@ -1,0 +1,40 @@
+{
+  "personal": [
+    {
+      "scale": "Combat Round",
+      "duration": "6 seconds",
+      "notes": "Personal combat actions"
+    },
+    {
+      "scale": "Turn",
+      "duration": "10 minutes",
+      "notes": "Exploration, tasks, repairs"
+    }
+  ],
+  "ship": [
+    {
+      "scale": "Ship Combat Round",
+      "duration": "6 minutes",
+      "notes": "Starship combat"
+    },
+    {
+      "scale": "Jump",
+      "duration": "1 week",
+      "notes": "Time spent in jump space"
+    }
+  ],
+  "campaign": [
+    {
+      "scale": "Day",
+      "duration": "24 hours"
+    },
+    {
+      "scale": "Week",
+      "duration": "7 days"
+    },
+    {
+      "scale": "Month",
+      "duration": "4 weeks (approx)"
+    }
+  ]
+}

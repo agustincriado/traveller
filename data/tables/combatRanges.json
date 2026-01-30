@@ -1,0 +1,51 @@
+{
+  "personalCombat": [
+    {
+      "range": "Adjacent",
+      "distance": "0-1 m",
+      "modifier": "+1 DM"
+    },
+    {
+      "range": "Short",
+      "distance": "2-10 m",
+      "modifier": "+0 DM"
+    },
+    {
+      "range": "Medium",
+      "distance": "11-50 m",
+      "modifier": "−1 DM"
+    },
+    {
+      "range": "Long",
+      "distance": "51-250 m",
+      "modifier": "−2 DM"
+    },
+    {
+      "range": "Very Long",
+      "distance": "251-1000 m",
+      "modifier": "−3 DM"
+    }
+  ],
+  "spaceCombat": [
+    {
+      "range": "Close",
+      "distance": "< 10 km"
+    },
+    {
+      "range": "Short",
+      "distance": "10-50 km"
+    },
+    {
+      "range": "Medium",
+      "distance": "51-250 km"
+    },
+    {
+      "range": "Long",
+      "distance": "251-1250 km"
+    },
+    {
+      "range": "Distant",
+      "distance": "1251+ km"
+    }
+  ]
+}

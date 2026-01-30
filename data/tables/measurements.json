@@ -1,0 +1,14 @@
+{
+  "distance": [
+    { "label": "Adjacent", "meters": "0-1" },
+    { "label": "Short", "meters": "2-10" },
+    { "label": "Medium", "meters": "11-50" },
+    { "label": "Long", "meters": "51-250" },
+    { "label": "Very Long", "meters": "251-1000" }
+  ],
+  "time": [
+    { "label": "Combat Round", "duration": "6 seconds" },
+    { "label": "Turn", "duration": "10 minutes" },
+    { "label": "Hour", "duration": "60 minutes" }
+  ]
+}
