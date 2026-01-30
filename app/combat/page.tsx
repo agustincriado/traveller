@@ -20,10 +20,10 @@ const DEFAULT_CRITICALS = [
 ];
 
 const defaultCombatState: CombatState = {
-  hull: 40,
-  maxHull: 40,
-  armor: 4,
-  maneuverPower: 2,
+  hull: 80,
+  maxHull: 80,
+  armor: 2,
+  maneuverPower: 1,
   weaponPower: 3,
   criticals: [],
 };

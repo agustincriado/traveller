@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 
 type Ship = {
   name: string;
+  model: string;
   hullTons: number;
   jumpRating: number;
   maneuverRating: number;
@@ -15,14 +16,15 @@ type Ship = {
 };
 
 const defaultShip: Ship = {
-  name: 'SS Explorer',
+  name: 'The Cyclops',
+  model: 'Far Trader',
   hullTons: 100,
   jumpRating: 2,
   maneuverRating: 2,
-  powerPlant: 5,
-  fuelCapacity: 50,
-  currentFuel: 50,
-  cargoSpace: 30,
+  powerPlant: 90,
+  fuelCapacity: 4,
+  currentFuel: 4,
+  cargoSpace: 50,
 };
 let didInit = false;
 export default function ShipPage() {
